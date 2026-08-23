@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAJU NAIL BAR | İzmir Üçyol Tırnak & Güzellik Stüdyosu</title>
+    <meta name="description" content="İzmir Üçyol'da premium tırnak sanatı, protez tırnak, kalıcı oje ve kirpik lifting stüdyosu. Kaju Nail Bar ile tırnaklarınızda sanatın zarafetini keşfedin.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        blush: {
+                            50: '#fdf9f8',
+                            100: '#faece9',
+                            200: '#f6dbd5',
+                            300: '#eebeb4',
+                            400: '#e3988b',
+                        },
+                        rosegold: {
+                            light: '#e8c4b8',
+                            DEFAULT: '#c59b8a',
+                            dark: '#a87c6b',
+                            deep: '#8f6353'
+                        },
+                        cream: '#faf8f5',
+                        charcoal: {
+                            light: '#5a5553',
+                            DEFAULT: '#363230',
+                            dark: '#1e1c1b'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft-pink': '0 10px 30px -5px rgba(227, 152, 139, 0.2)',
+                        'glow': '0 0 25px rgba(197, 155, 138, 0.35)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .gold-gradient {
+            background: linear-gradient(135deg, #dfb8a8 0%, #c59b8a 50%, #9e705f 100%);
+        }
+        .text-gold-gradient {
+            background: linear-gradient(135deg, #b88574 0%, #8f6353 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass-header {
+            background: rgba(255, 255, 255, 0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .luxury-border {
+            border: 1px solid rgba(197, 155, 138, 0.25);
+        }
+        .luxury-card {
+            background: rgba(255, 255, 255, 0.92);
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .luxury-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 35px -8px rgba(197, 155, 138, 0.3);
+            border-color: rgba(197, 155, 138, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-cream text-charcoal font-sans antialiased selection:bg-blush-200 selection:text-charcoal-dark">
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-header border-b border-blush-100 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex flex-col items-start group">
+                <span class="font-serif text-2xl sm:text-3xl font-bold tracking-[0.2em] text-charcoal-dark group-hover:text-rosegold transition-colors">
+                    KAJU
+                </span>
+                <span class="text-[9px] tracking-[0.35em] -mt-1 font-semibold text-rosegold uppercase">
+                    NAIL BAR
+                </span>
+            </a>
+
+            <!-- Quick WhatsApp CTA -->
+            <a href="https://wa.me/905432734811" target="_blank" rel="noopener noreferrer" 
+               class="gold-gradient hover:opacity-95 text-white text-xs sm:text-sm font-semibold tracking-wider uppercase px-5 py-2.5 sm:px-7 sm:py-3 rounded-full shadow-soft-pink hover:shadow-glow transition-all duration-300 flex items-center gap-2 transform active:scale-95">
+                <span>Randevu Al</span>
+                <i data-lucide="calendar" class="w-4 h-4"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- Hero Section -->
+        <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-blush-50 px-4 sm:px-6 py-16 sm:py-24">
+            <!-- Decorative Ambient Glows -->
+            <div class="absolute top-10 left-1/2 -translate-x-1/2 w-96 h-96 bg-blush-200/60 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="absolute bottom-0 right-0 w-80 h-80 bg-rosegold-light/20 rounded-full blur-2xl pointer-events-none"></div>
+
+            <div class="relative max-w-4xl mx-auto text-center z-10 flex flex-col items-center">
+                <!-- Location Micro Badge -->
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 border border-blush-200 shadow-sm mb-6 text-xs font-medium text-rosegold-dark">
+                    <i data-lucide="sparkles" class="w-3.5 h-3.5 text-rosegold"></i>
+                    <span>İzmir Üçyol'un Özel Tırnak Tasarım Stüdyosu</span>
+                </div>
+
+                <!-- Main Heading -->
+                <h1 class="font-serif text-4xl sm:text-6xl md:text-7xl font-bold text-charcoal-dark tracking-tight leading-[1.15] mb-6">
+                    Tırnaklarınızda Sanat, <br class="hidden sm:inline" />
+                    <span class="text-gold-gradient italic font-normal">Kaju’da Deneyim</span>
+                </h1>
+
+                <!-- Subheading -->
+                <p class="text-base sm:text-xl text-charcoal-light font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+                    İzmir Üçyol’un en şık Nail Bar’ında profesyonel dokunuş. Kişiye özel tasarımlar, hijyenik ve zarif bir atmosferde sizi bekliyor.
+                </p>
+
+                <!-- Prominent CTA Button -->
+                <div class="w-full sm:w-auto flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="https://wa.me/905432734811" target="_blank" rel="noopener noreferrer" 
+                       class="w-full sm:w-auto gold-gradient hover:opacity-95 text-white font-semibold text-base px-8 py-4 rounded-full shadow-lg hover:shadow-glow transition-all duration-300 flex items-center justify-center gap-3 group">
+                        <i data-lucide="message-circle" class="w-5 h-5 group-hover:scale-110 transition-transform"></i>
+                        <span>WhatsApp'tan Randevu Al</span>
+                    </a>
+                </div>
+
+                <!-- Subtle Trust Points -->
+                <div class="mt-14 grid grid-cols-3 gap-4 sm:gap-8 pt-8 border-t border-blush-200/70 w-full max-w-lg text-center">
+                    <div>
+                        <p class="font-serif text-xl sm:text-2xl font-bold text-rosegold-dark">%100</p>
+                        <p class="text-[11px] sm:text-xs text-charcoal-light uppercase tracking-wider font-medium">Steril Ortam</p>
+                    </div>
+                    <div>
+                        <p class="font-serif text-xl sm:text-2xl font-bold text-rosegold-dark">VIP</p>
+                        <p class="text-[11px] sm:text-xs text-charcoal-light uppercase tracking-wider font-medium">Kişisel İlgi</p>
+                    </div>
+                    <div>
+                        <p class="font-serif text-xl sm:text-2xl font-bold text-rosegold-dark">Trend</p>
+                        <p class="text-[11px] sm:text-xs text-charcoal-light uppercase tracking-wider font-medium">Nail Art Stili</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section (Hizmetlerimiz) -->
+        <section class="py-20 sm:py-28 px-4 sm:px-6 max-w-6xl mx-auto" id="hizmetler">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-rosegold text-xs tracking-[0.25em] font-semibold uppercase block mb-2">Ayrıcalıklı Bakım</span>
+                <h2 class="font-serif text-3xl sm:text-5xl font-bold text-charcoal-dark mb-4">Hizmetlerimiz</h2>
+                <div class="w-16 h-0.5 gold-gradient mx-auto mb-4"></div>
+                <p class="text-charcoal-light text-sm sm:text-base">
+                    Estetik zevkinize uygun en kaliteli malzemelerle hazırlanan profesyonel güzellik uygulamalarımız.
+                </p>
+            </div>
+
+            <!-- Service Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+                <!-- Service 1 -->
+                <div class="luxury-card p-8 rounded-3xl luxury-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blush-100 flex items-center justify-center text-rosegold-deep mb-6">
+                            <i data-lucide="sparkles" class="w-7 h-7"></i>
+                        </div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="font-serif text-2xl font-bold text-charcoal-dark">Protez Tırnak & Nail Art</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blush-100 text-rosegold-dark">En Popüler</span>
+                        </div>
+                        <p class="text-charcoal-light text-sm leading-relaxed mb-6">
+                            Jel sistem, tips ve şablon uygulamalarıyla kırılmayan, güçlü tırnaklar. Kişiselleştirilmiş el çizimi sanatsal nail art desenleri ve trend efektler.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/905432734811?text=Merhaba,%20Protez%20Tırnak%20ve%20Nail%20Art%20hakkında%20bilgi%20ve%20randevu%20almak%20istiyorum." 
+                       class="inline-flex items-center text-xs font-bold uppercase tracking-wider text-rosegold-dark hover:text-rosegold transition-colors">
+                        <span>Randevu Oluştur</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4 ml-1.5"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="luxury-card p-8 rounded-3xl luxury-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blush-100 flex items-center justify-center text-rosegold-deep mb-6">
+                            <i data-lucide="palette" class="w-7 h-7"></i>
+                        </div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="font-serif text-2xl font-bold text-charcoal-dark">Kalıcı Oje & Tasarım</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blush-100 text-rosegold-dark">3+ Hafta Kalıcılık</span>
+                        </div>
+                        <p class="text-charcoal-light text-sm leading-relaxed mb-6">
+                            Geniş renk skalası, parıltılı simler, ombré geçişler ve zirkon taş detayları ile 3-4 hafta boyunca ilk günkü parlaklığını koruyan kusursuz tırnaklar.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/905432734811?text=Merhaba,%20Kalıcı%20Oje%20ve%20Tasarım%20hakkında%20bilgi%20ve%20randevu%20almak%20istiyorum." 
+                       class="inline-flex items-center text-xs font-bold uppercase tracking-wider text-rosegold-dark hover:text-rosegold transition-colors">
+                        <span>Randevu Oluştur</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4 ml-1.5"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="luxury-card p-8 rounded-3xl luxury-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blush-100 flex items-center justify-center text-rosegold-deep mb-6">
+                            <i data-lucide="gem" class="w-7 h-7"></i>
+                        </div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="font-serif text-2xl font-bold text-charcoal-dark">Manikür & Pedikür</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blush-100 text-rosegold-dark">Medikal & Spa</span>
+                        </div>
+                        <p class="text-charcoal-light text-sm leading-relaxed mb-6">
+                            Cihazlı kuru manikür (kombine manikür), medikal tırnak bakımı, peeling ve derinlemesine nemlendirici spa pedikür seansları.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/905432734811?text=Merhaba,%20Manikür%20ve%20Pedikür%20hakkında%20bilgi%20ve%20randevu%20almak%20istiyorum." 
+                       class="inline-flex items-center text-xs font-bold uppercase tracking-wider text-rosegold-dark hover:text-rosegold transition-colors">
+                        <span>Randevu Oluştur</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4 ml-1.5"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="luxury-card p-8 rounded-3xl luxury-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blush-100 flex items-center justify-center text-rosegold-deep mb-6">
+                            <i data-lucide="eye" class="w-7 h-7"></i>
+                        </div>
+                        <div class="flex items-center justify-between mb-2">
+                            <h3 class="font-serif text-2xl font-bold text-charcoal-dark">Kirpik Lifting & İpek Kirpik</h3>
+                            <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blush-100 text-rosegold-dark">Derin Bakışlar</span>
+                        </div>
+                        <p class="text-charcoal-light text-sm leading-relaxed mb-6">
+                            Doğal kirpiklerinize hacim ve kıvrım kazandıran keratin lifting bakımı ve göz formunuza özel tasarlanan hafif, doğal görünümlü ipek kirpikler.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/905432734811?text=Merhaba,%20Kirpik%20Lifting%20ve%20İpek%20Kirpik%20hakkında%20bilgi%20ve%20randevu%20almak%20istiyorum." 
+                       class="inline-flex items-center text-xs font-bold uppercase tracking-wider text-rosegold-dark hover:text-rosegold transition-colors">
+                        <span>Randevu Oluştur</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4 ml-1.5"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Photos & Gallery Section -->
+        <section class="py-20 sm:py-24 bg-blush-50/70 border-y border-blush-100 px-4 sm:px-6">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center max-w-3xl mx-auto mb-14">
+                    <span class="text-rosegold text-xs tracking-[0.25em] font-semibold uppercase block mb-2">İlham Veren Sonuçlar</span>
+                    <h2 class="font-serif text-3xl sm:text-5xl font-bold text-charcoal-dark mb-4">Mutlu Müşterilerimiz ve Kaju Stili</h2>
+                    <div class="w-16 h-0.5 gold-gradient mx-auto mb-4"></div>
+                    <p class="text-charcoal-light text-sm sm:text-base leading-relaxed">
+                        Seçtiğiniz 3 özel görselin yan yana veya zarif bir ızgarada sergileneceği modern bir galeri alanı oluşturun. Bu alanlar, sizin vereceğiniz 3 adet gerçek müşteri görselini doğrudan sisteme ekleyeceğiniz fotoğraf konteynerleri olarak tasarlandı.
+                    </p>
+                </div>
+
+                <!-- 3 Photo Containers -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-12">
+                    <!-- Photo 1 Container -->
+                    <div class="group relative rounded-3xl overflow-hidden bg-white luxury-border shadow-sm aspect-[4/5] flex flex-col items-center justify-end">
+                        <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80" 
+                             alt="Kaju Nail Bar Protez Tırnak Örneği" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-charcoal-dark/70 via-charcoal-dark/10 to-transparent"></div>
+                        <div class="relative z-10 p-6 text-white w-full">
+                            <span class="text-[10px] uppercase font-bold tracking-widest text-blush-200">Görsel 1</span>
+                            <h4 class="font-serif text-xl font-semibold">Özel Nail Art & Jel Protez</h4>
+                        </div>
+                    </div>
+
+                    <!-- Photo 2 Container -->
+                    <div class="group relative rounded-3xl overflow-hidden bg-white luxury-border shadow-sm aspect-[4/5] flex flex-col items-center justify-end">
+                        <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80" 
+                             alt="Kaju Nail Bar Kalıcı Oje ve French Tasarım" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-charcoal-dark/70 via-charcoal-dark/10 to-transparent"></div>
+                        <div class="relative z-10 p-6 text-white w-full">
+                            <span class="text-[10px] uppercase font-bold tracking-widest text-blush-200">Görsel 2</span>
+                            <h4 class="font-serif text-xl font-semibold">Zarif French & Pastel Kalıcı Oje</h4>
+                        </div>
+                    </div>
+
+                    <!-- Photo 3 Container -->
+                    <div class="group relative rounded-3xl overflow-hidden bg-white luxury-border shadow-sm aspect-[4/5] flex flex-col items-center justify-end">
+                        <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=80" 
+                             alt="Kaju Nail Bar Manikür & Bakım" 
+                             class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-gradient-to-t from-charcoal-dark/70 via-charcoal-dark/10 to-transparent"></div>
+                        <div class="relative z-10 p-6 text-white w-full">
+                            <span class="text-[10px] uppercase font-bold tracking-widest text-blush-200">Görsel 3</span>
+                            <h4 class="font-serif text-xl font-semibold">Kombine Manikür & Işıltı</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5-Star Google Badge -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="inline-flex items-center gap-3 bg-white px-6 py-3.5 rounded-full luxury-border shadow-soft-pink">
+                        <div class="flex items-center text-amber-400 gap-0.5">
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                            <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+                        </div>
+                        <span class="font-bold text-sm text-charcoal-dark">Google'da 4.9/5 Yıldız Değerlendirme</span>
+                    </div>
+                    <p class="text-xs text-charcoal-light mt-2.5 font-medium">İzmir Üçyol'un en yüksek memnuniyet oranına sahip Nail Bar'ı</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Direct Contact Section -->
+        <section class="py-20 sm:py-28 px-4 sm:px-6 max-w-5xl mx-auto" id="iletisim">
+            <div class="bg-white rounded-3xl sm:rounded-[2.5rem] p-6 sm:p-12 luxury-border shadow-xl relative overflow-hidden">
+                <div class="absolute -top-24 -right-24 w-60 h-60 bg-blush-100 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="text-center max-w-2xl mx-auto mb-10">
+                    <span class="text-rosegold text-xs tracking-[0.25em] font-semibold uppercase block mb-2">Bize Kolayca Ulaşın</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-charcoal-dark mb-3">İletişim & Konum</h2>
+                    <p class="text-charcoal-light text-sm sm:text-base">
+                        Sizi ağırlamaktan ve tarzınızı tırnaklarınıza yansıtmaktan mutluluk duyarız.
+                    </p>
+                </div>
+
+                <!-- Info Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
+                    <!-- Address Card -->
+                    <div class="p-6 rounded-2xl bg-cream/70 border border-blush-100 flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-white shadow-sm flex items-center justify-center text-rosegold shrink-0">
+                            <i data-lucide="map-pin" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-charcoal-dark text-base mb-1">Stüdyo Adresi</h4>
+                            <p class="text-charcoal-light text-sm leading-relaxed">
+                                Atilla Mah. İnönü Cad. No:27/C, Üçyol / Konak, İzmir
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Hours Card -->
+                    <div class="p-6 rounded-2xl bg-cream/70 border border-blush-100 flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-white shadow-sm flex items-center justify-center text-rosegold shrink-0">
+                            <i data-lucide="clock" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-charcoal-dark text-base mb-1">Çalışma Saatleri</h4>
+                            <p class="text-charcoal-light text-sm leading-relaxed">
+                                Pazartesi - Cumartesi: 09:00 - 19:30
+                            </p>
+                            <p class="text-[11px] text-rosegold-dark font-medium mt-0.5">Pazar: Randevu ile</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side-by-side Large CTA Buttons -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Button 1: Hemen Ara -->
+                    <a href="tel:+905432734811" 
+                       class="w-full bg-white border-2 border-rosegold text-rosegold-dark hover:bg-blush-50 font-bold text-base py-4 px-6 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-center gap-3">
+                        <i data-lucide="phone-call" class="w-5 h-5 text-rosegold"></i>
+                        <span>Hemen Ara</span>
+                    </a>
+
+                    <!-- Button 2: WhatsApp'tan Yaz -->
+                    <a href="https://wa.me/905432734811" target="_blank" rel="noopener noreferrer" 
+                       class="w-full gold-gradient hover:opacity-95 text-white font-bold text-base py-4 px-6 rounded-2xl shadow-soft-pink hover:shadow-glow transition-all duration-300 flex items-center justify-center gap-3">
+                        <i data-lucide="message-circle" class="w-5 h-5"></i>
+                        <span>WhatsApp'tan Yaz</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-blush-100 py-12 px-4 sm:px-6">
+        <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
+            <div>
+                <span class="font-serif text-xl font-bold tracking-[0.2em] text-charcoal-dark">KAJU NAIL BAR</span>
+                <p class="text-xs text-charcoal-light mt-1">İzmir Üçyol Güzellik & Tırnak Tasarım Stüdyosu</p>
+            </div>
+
+            <!-- Social Links & Copy -->
+            <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-8">
+                <a href="https://instagram.com/kajunailbar" target="_blank" rel="noopener noreferrer" 
+                   class="inline-flex items-center gap-2 text-sm text-charcoal-light hover:text-rosegold transition-colors">
+                    <i data-lucide="instagram" class="w-4 h-4"></i>
+                    <span>@kajunailbar</span>
+                </a>
+                <p class="text-xs text-charcoal-light/80">
+                    &copy; <span id="year"></span> KAJU NAIL BAR. Tüm hakları saklıdır.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Action for Mobile -->
+    <a href="https://wa.me/905432734811" target="_blank" rel="noopener noreferrer" 
+       class="fixed bottom-6 right-6 z-40 gold-gradient text-white p-4 rounded-full shadow-glow hover:scale-110 active:scale-95 transition-all duration-300 sm:hidden flex items-center justify-center"
+       aria-label="WhatsApp Randevu">
+        <i data-lucide="message-circle" class="w-6 h-6"></i>
+    </a>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+        // Set dynamic copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
